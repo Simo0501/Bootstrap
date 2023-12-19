@@ -6,3 +6,17 @@
 .btn-primary{
   background-color: #335EEA;
 }
+.col-4 .bi-list{
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .col-4 .bi-list{
+    display: inline;
+  }  
+}
+@media screen and (max-width: 992px) {
+  .btn-primary,
+  .col-1{
+    visibility: hidden;
+  }  
+}
