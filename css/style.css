@@ -19,3 +19,11 @@
   font-size: 1.3rem !important;
   color: #97A7BD;
 }
+.row-content .col-5 .btn{
+  font-size: 1.1rem;
+}
+.row-content .col-5 .btn-light{
+  font-size: 1.1rem;
+  color: #335EEC;
+  background-color: #EAEFFD;
+}
