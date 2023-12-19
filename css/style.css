@@ -20,3 +20,6 @@
     visibility: hidden;
   }  
 }
+.row-content{
+  align-items: center;
+}
