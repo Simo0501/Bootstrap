@@ -24,17 +24,17 @@
 
 @media screen and (max-width: 992px) {
   .row-header .col-1 a{
-    visibility: hidden;
+    display: none;
   }  
 }
 @media screen and (max-width: 768px) {
   .row-header .col-1 a{
-    visibility: hidden;
+    display: none;
   }  
 }
 @media screen and (max-width: 576px) {
   .row-header .col-1 a{
-    visibility: hidden;
+    display: none;
   }  
 }
 .row-content{
@@ -88,11 +88,6 @@
     font-size: medium;
     width: 160px !important;
     height: 50px !important;
-  }
-} 
-@media screen and (max-width: 992px) {
-  .row-content .col-5 .svg{
-    width: 18px !important;
   }
 } 
 @media screen and (max-width: 768px) {
