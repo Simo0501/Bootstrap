@@ -23,17 +23,17 @@
 }
 
 @media screen and (max-width: 992px) {
-  .row-header .col-1 a{
+  .row-header .col-1{
     display: none;
   }  
 }
 @media screen and (max-width: 768px) {
-  .row-header .col-1 a{
+  .row-header .col-1{
     display: none;
   }  
 }
 @media screen and (max-width: 576px) {
-  .row-header .col-1 a{
+  .row-header .col-1{
     display: none;
   }  
 }
