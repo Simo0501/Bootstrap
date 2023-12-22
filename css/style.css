@@ -90,7 +90,7 @@
   }
 }  
 
-.info{
+/* .info{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,4 +108,4 @@
 .info .col-4 p{
   line-height: 1.6rem;
   color:#afafaf ;
-}
+} */
