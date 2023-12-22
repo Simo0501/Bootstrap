@@ -40,11 +40,9 @@
 .row-content{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap-reverse;
   padding-top: 3rem;
   background-color: #FFFFFF;
-  margin-left: 3rem;
 }
 .row-content .col-5 .fs-1{
   font-size: 3rem !important;
@@ -72,7 +70,7 @@
   .row-content .col-5 .fs-1{
     font-size: 2rem !important;
   }
-}
+} 
 @media screen and (max-width: 992px) {
   .row-content .col-5 p{
     font-size: 0.9rem !important;
@@ -111,6 +109,3 @@
   line-height: 1.6rem;
   color:#afafaf ;
 }
-@media screen and (max-width: 992px) {
-  
-} 
