@@ -44,51 +44,23 @@
   padding-top: 3rem;
   background-color: #FFFFFF;
 }
-.row-content .col-5 .fs-1{
+.row-content .col-6 .fs-1{
   font-size: 3rem !important;
   margin-top: 1rem;
 }
-.row-content .col-5 p{
+.row-content .col-6 p{
   font-size: 1.3rem !important;
   color: #97A7BD;
 }
-.row-content .col-5 .btn{
+.row-content .col-6 .btn{
   font-size: 1.1rem;
   font-weight: 600;
 }
-.row-content .col-5 .btn-light{
+.row-content .col-6 .btn-light{
   font-size: 1.1rem;
   color: #335EEC;
   background-color: #EAEFFD;
 }
-@media screen and (max-width: 1200px) {
-  .row-content .col-5 p{
-    font-size: 1.1rem !important;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .row-content .col-5 .fs-1{
-    font-size: 2rem !important;
-  }
-} 
-@media screen and (max-width: 992px) {
-  .row-content .col-5 p{
-    font-size: 0.9rem !important;
-  }
-}
-@media screen and (max-width: 992px) {
-  .row-content .col-5 .fs-1{
-    font-size: 1.5rem !important;
-  }
-}
-@media screen and (max-width: 992px) {
-  .row-content .col-5 .btn-primary,
-  .row-content .col-5 .btn-light{
-    font-size: medium;
-    width: 160px !important;
-    height: 50px !important;
-  }
-}  
 
 /* .info{
   display: flex;
