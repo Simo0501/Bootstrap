@@ -61,8 +61,28 @@
   color: #335EEC;
   background-color: #EAEFFD;
 }
+@media screen and (max-width: 992px) {
+  .row-content .col-6 .fs-1{
+    font-size: 2rem !important;
+  }  
+}
+@media screen and (max-width: 768px) {
+  .row-content .col-6{
+    text-align: center !important;
+  }  
+}
+@media screen and (max-width: 768px) {
+  .row-content .col-6 .btn-primary svg{
+    display: none;
+  }  
+}
+@media screen and (max-width: 580px) {
+  .row-content .col-6 .fs-1{
+    font-size: 1.8rem !important;
+  }  
+}
 
-/* .info{
+.info{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,4 +100,4 @@
 .info .col-4 p{
   line-height: 1.6rem;
   color:#afafaf ;
-} */
+} 
