@@ -89,7 +89,7 @@
 
 .info{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 3rem;
@@ -105,6 +105,13 @@
   line-height: 1.6rem;
   color:#afafaf ;
 } 
+.row-content-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+}
 .row-info{
   color: #97A7BD;
   width: 130px;
