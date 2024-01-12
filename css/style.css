@@ -128,3 +128,25 @@
   }
   
 }
+.jumbo{
+  padding-top: 5rem;
+}
+.row-content .green{
+  color: #42BA96;
+}
+.jumbo .check-list{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.jumbo .list-check{
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+  color: #42BA96;
+}
+.jumbo .check-list .ready{
+  margin-left: 1.2rem;
+} 
