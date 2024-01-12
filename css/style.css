@@ -116,3 +116,15 @@
   color: #97A7BD;
   width: 130px;
 }
+@media screen and (min-width: 900px) {
+  .row-info{
+    width: 12%;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .row-info{
+    width: 40%;
+  }
+  
+}
