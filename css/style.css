@@ -23,7 +23,8 @@
 }
 
 @media screen and (max-width: 992px) {
-  .row-header .col-1 a{
+  .row-header .col-1 a,
+  .row-header .space{
     display: none;
   }  
 }
@@ -33,7 +34,8 @@
   }  
 }
 @media screen and (max-width: 576px) {
-  .row-header .col-1 a{
+  .row-header .col-1 a,
+  .row-header .space{
     display: none;
   }  
 }
@@ -88,7 +90,6 @@
   align-items: center;
   flex-wrap: wrap;
   padding-top: 3rem;
-  background-color: #FFFFFF;
   margin-left: 3rem;
 }
 .info .col-4 h4{
@@ -101,3 +102,7 @@
   line-height: 1.6rem;
   color:#afafaf ;
 } 
+.row-info{
+  color: #97A7BD;
+  width: 130px;
+}
