@@ -129,10 +129,21 @@
   
 }
 .jumbo{
+  display: flex;
+  flex-wrap: wrap-reverse;
   padding-top: 5rem;
 }
 .row-content .green{
   color: #42BA96;
+}
+.jumbo .text{
+  margin-top: 7rem;
+}
+@media screen and (max-width: 500px){
+  .jumbo .text {
+    margin-bottom: 2rem;
+  }
+  
 }
 .jumbo .check-list{
   display: flex;
